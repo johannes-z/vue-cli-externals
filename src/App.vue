@@ -8,10 +8,20 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 
+import $ from 'jquery'
+import CamlBuilder from 'camljs'
+
+
 export default {
   name: 'app',
   components: {
     HelloWorld
+  },
+  data () {
+    return {
+      $,
+      CamlBuilder
+    }
   }
 }
 </script>
