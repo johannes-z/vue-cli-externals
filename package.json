@@ -10,7 +10,7 @@
   "dependencies": {
     "camljs": "^2.11.0",
     "core-js": "^3.1.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
